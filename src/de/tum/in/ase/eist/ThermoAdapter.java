@@ -2,7 +2,7 @@ package de.tum.in.ase.eist;
 
 public class ThermoAdapter implements ThermoInterface {
 
-    FahrenheitThermo thermo;
+    private FahrenheitThermo thermo;
 
     public ThermoAdapter(){
         thermo = new FahrenheitThermo();
