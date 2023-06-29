@@ -4,7 +4,7 @@ public class ThermoAdapter implements ThermoInterface {
 
     private FahrenheitThermo thermo;
 
-    public ThermoAdapter(){
+    public ThermoAdapter() {
         thermo = new FahrenheitThermo();
     }
     public  double getTempC() {
